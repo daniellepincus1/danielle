@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Assignment - JavaScript Events</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="scripts/events.js"></script>
+  <script>
+    /* write your javascript here to add the event handlers described in the assignment
+       You probably want to begin with an addEventListener for DOMContentLoaded event.
+       Have questions?  See the examples we worked in class!
+    */
+    document.addEventListener('DOMContentLoaded', (event) => {
+      doWasJustLoaded();
+    console.log('DOM fully loaded and parsed');
+   
+    let link = document.getElementById("mylink");
+    link.addEventListener("click", function() {
+      doWasJustClicked();
+  });
+    
+    let myPara = document.getElementById('mypara');
+    mypara.addEventListener('mouseover', function() {
+      doWasJustMousedOver(); });
+    mypara.addEventListener('mouseout', function() {
+      doWasJustMousedOut();});
+
+    let form = document.getElementById('myform');
+    form.addEventListener('submit', function() {
+      doWasJustSubmitted(); });
+    let myName = document.getElementById('myname');
+    myname.addEventListener('focus', function() {
+      doWasJustFocusedOn(); });  
+    myname.addEventListener('blur', function() {
+      doWasJustBlurredFrom();  
+    });
+    let myOptin = document.getElementById('optin');
+    optin.addEventListener('click', function() {
+      doWasJustClicked(); });
+    let myDirection = document.getElementById('mydirection');
+    mydirection.addEventListener('change', function() {
+      doWasJustChanged(); });
+    });
+    
+  </script>
+</head>
+
+<body>
+  <h1>Illustrating JavaScript Events</h1>
+  <p id="status"><img src="images/blank.png" alt="event image" id="event_image" /><br />
+    <span id="statuscaption">Event images and messages will display here.</span>
+  </p>
+  <p><a id="mylink" href="#">Lorem ipsum dolor</a></p>
+  <p id="mypara" class="p1">Mouseover and out of this paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit. Nulla vel risus at augue semper hendrerit.</p>
+  <form id="myform" action="https://cs12.net/form/submit.php">
+    <fieldset>
+      <legend>Form</legend>
+      <p>
+        <label for="myname">Name</label>
+        :<br />
+        <input id="myname" type="text" name="name" />
+      </p>
+      <p>
+        <input type="checkbox" id="optin" name="optin" value="Y" />
+        <label for="optin">Opt-in to receive promotional offers</label>
+      </p>
+      <p>Please select a direction:<br />
+        <select id="mydirection" name="direction">
+          <option value="N">North</option>
+          <option value="S">South</option>
+          <option value="E">East</option>
+          <option value="W">West</option>
+        </select>
+      </p>
+      <p>
+        <input type="submit" name="Submit" value="Submit" />
+      </p>
+    </fieldset>
+  </form>
+</body>
+
+</html>
