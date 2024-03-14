@@ -1,0 +1,105 @@
+WebAIM - Web Accessibility In Mind
+
+services
+articles
+resources
+projects
+community
+
+Search: 
+Submit Search
+
+Introduction to Web Accessibility
+
+WebAIM Training
+
+We have web accessibility in mind
+Expanding the potential of the web for people with disabilities by empowering individuals and organizations to create accessible content.
+
+Accessibility Training
+WebAIM can provide web, document, Zoom, and strategic accessibility training to fit your needs.
+
+Technical Assistance
+Need assistance implementing accessibility? WebAIM's expert staff can provide the assistance you need.
+
+Accessible Site Certification
+As a respected third party accessibility expert, WebAIM can evaluate and document the accessibility of your site.
+
+Evaluation and Reporting
+We can provide reports to help you know how accessible your site is and how to make it better.
+
+Community
+WebAIM Blog
+Newsletter
+E-mail Discussion List
+Twitter
+
+Current Features
+
+The WebAIM Million - 2022 Update
+An automated WAVE analysis of the home pages for the top one million web sites shows widespread accessibility issues.
+
+Read the WebAIM Million report
+
+Web Accessibility Evaluation Guide
+A guide to using free tools—including WAVE—to conduct a comprehensive web accessibility evaluation.
+
+Web Accessibility Evaluation Guide
+
+Screen Reader User Survey #9
+The results of WebAIM’s 9th Screen Reader User Survey are now available. These data provide insight into the preferences and technology usage of screen reader users.
+
+Read the survey results
+
+Archive of featured items…
+
+WebAIM Trainings
+
+Document Accessibility Online Course
+Enrollment open for July cohort
+Web Accessibility Virtual Training
+June 29–30 and August 24–25
+Online
+
+Zoom Accessibility Workshop
+July 12
+Online
+
+WebAIM Activities
+John Slatin AccessU
+May 7–12
+
+ICT Accessibility Testing Symposium
+May 18–19
+
+University of Guelph Accessibility Conference
+May 24–26
+
+Web Accessibility in Mind Conference
+September 7–8
+
+©2022 WebAIM
+Institute for Disability Research, Policy, and Practice
+Utah State University
+6807 Old Main Hill
+Logan, UT 84322-6807
+435.797.7024
+
+Check Your Accessibility
+Web site address: 
+ 
+From the Blog
+Flexbox and the Screen Reader Experience
+Tips for Accessible Screen Sharing
+The WebAIM Million - 2022 Update
+Introducing the Accessibility IMpact (AIM) Score and Other WAVE Updates
+
+Popular Resources
+WebAIM Training
+WCAG 2 Checklist
+WebAIM Monthly Newsletter
+Color Contrast Checker
+Web Accessibility for Designers
+WAVE Web Accessibility Evaluation Tool
+
+Contact About RSS Feeds Twitter Copyright & Terms of Use

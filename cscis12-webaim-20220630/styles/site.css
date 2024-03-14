@@ -1,0 +1,90 @@
+body {
+    font-family: helvetica, sans-serif;
+}
+h1, h2, h3 {
+    color: rgb(191, 24, 34);
+    font-weight: normal;
+}
+header div.hero {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-image: url('../images/home.jpg');
+    background-repeat: no-repeat;
+    min-height: 240px;
+    background-position-x: 50%;
+    background-size: cover;
+}
+main section {
+    background-color: rgb(241, 245, 247);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0.5rem;
+
+}
+main section h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+section.assistance,
+section.certification,
+section.training,
+section.evaluation {
+    background-image: url('../images/bg_training.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    /* TODO: fix image positioning */
+}
+section.certification {
+    background-image: url('../images/bg_certification.svg');
+}
+section.assistance {
+    background-image: url('../images/bg_assistance.svg');
+}
+section.evaluation {
+    background-image: url('../images/bg_evaluation.svg');
+}
+p.tagline { 
+    font-style: italic;
+}
+a:link {
+ color: rgb(32, 57, 157);
+}
+a:hover {
+   background-color: rgb(255, 255, 204); 
+    color:rgb(191, 23, 34);
+}
+
+/*
+Colors:
+red  rgb(191, 24, 34)
+
+blue-gray of boxes
+rgb(241, 245, 247)
+
+gray heading of current features
+rgb(228, 229, 234)
+
+gray box of current features 
+rgb(243, 243, 245)
+
+font color 
+rgb(51, 51, 51) 
+
+border top colors
+rgb(204, 204, 204)
+
+
+link colors
+blue 
+rgb(32, 57, 157)
+
+hover bg
+rgb(255, 255, 204); 
+
+hover color
+rgb(191, 23, 34)
+
+*/
