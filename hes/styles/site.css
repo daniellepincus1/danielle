@@ -1,0 +1,426 @@
+/* -----------------------------
+   colors used
+   -----------------------------
+    #000000 black
+    #020203 richblack
+    #4d84c4 steal blue
+    #a51c30 crimson
+    #f5f5f8 cultured off white
+    #ebebeb platnum grey
+    #ffffff white
+    
+    You can see the color palette (minus the white and black) at: 
+    https://coolors.co/a51c30-4d84c4-020203-ebebeb-f5f5f8
+*/
+
+/* -----------------------------
+   fonts used
+   -----------------------------
+Note that Roboto and "Roboto Condensed" are available from the linked fonts already in the HTML
+
+font-family stack for most things:
+    Roboto, Arial, sans-serif;
+
+font-family stack for 'condensed' elements, such as hX headings, header navigation, and links in the 'Explore'  section:
+    'Roboto Condensed', Arial, sans-serif;
+   -----------------------------  */
+
+/* -----------------------------
+   background images used
+   -----------------------------
+../images/hes_shield_wordmark.svg   - This is the HES Shield and HES Wordmark
+../images/campus_bridge_river.jpg   - This is the background image for the 
+                                      "Explore" section
+../images/arrow-right.svg    - This is the crimson arrow next to the 
+                                      hypertext links in the "Explore" sections
+../images/mortar-board.svg          - The "cap" in Student Success stories 'program'
+../images/map-marker.svg            - The map marker in Student Success 
+                                      stories 'hometown'
+
+   -----------------------------  */
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+/* turn off sections you aren't working on so you can focus!
+   I suggest you begin with working on the "footer"
+*/
+/* consider uncommenting this to start so that only the footer is visible! */
+/*
+div.explore,
+div.studentsuccess,
+header
+{
+    display: none;
+}
+*/
+
+/* -----------------------------
+   Styles for footer
+   ----------------------------- */
+   footer {
+      background-color: black;
+      color: white;
+      padding: 5px;
+     
+   }
+   footer ul {
+      list-style: none;
+      display: flex;
+      padding-left: 0;
+   }
+   footer ul a { 
+      
+      text-decoration: none;
+      margin-left: 1em;
+      color:white;
+   }
+   footer a:link,
+   footer a:visited,
+   footer a:active {
+      color:white;
+   }
+   footer a:hover {
+      color: crimson;
+   }
+   footer nav.contactplus a { 
+      font-weight: bold;
+      
+   }
+   footer nav.contactplus ul li { 
+      margin-right: 1.5em;
+     
+      padding-bottom: .5em;
+   }
+   footer nav.privacyplus ul li::before { 
+      content: " | ";
+      padding-left: 1em;
+      
+   }
+   footer nav.privacyplus ul li:first-child::before {
+      content: "";
+      padding-left: 0;
+      padding-right: 0;
+   }
+   footer p { margin-left: 1em;}
+
+
+
+/* -----------------------------
+   Styles for header
+   ----------------------------- */
+   
+header {
+   display: grid;
+   background-color:  #ffffff;
+   margin-top: -1.25em;
+   grid-template-areas: 
+   "dce    dce  dce  dce"
+   "shield nav2 nav2 nav2"
+   "shield nav1 nav1 nav1" 
+}
+header h2 {
+   grid-area: dce;
+   background-color:  #a51c30;
+   color: white;
+   font-family: 'Roboto Condensed', Arial, sans-serif;
+   font-weight: lighter;
+   font-variant: small-caps;
+   padding-left: .5em;
+   padding-bottom: .3em;
+   padding-top: .3em;
+  
+}
+header h2.wordmark {
+   grid-area: shield;
+   background-color: white;
+  
+
+}
+
+header nav.secondary {
+   grid-area: nav2;
+   text-align: right;
+   padding-right: .5em;
+}
+
+header nav.primary {
+   grid-area: nav1;
+   text-align: right;
+   padding-right: .5em; 
+}
+
+header nav ul {
+   list-style-type: none;
+   margin-left: 10em;
+   font-family: "Roboto Condensed", Arial, sans-serif;
+   font-weight: bolder;
+   
+}
+header nav ul li {
+   display: inline;
+   
+   
+   
+}
+
+header img {
+   margin-top: -1.5em;
+   margin-left: .5em;
+}
+header nav.primary a {
+   color: black;
+   
+} 
+/* -----------------------------
+   Styles for header primary nav
+   ----------------------------- */
+header .primary a:link,
+header .primary a:visited,
+header .primary a:active {
+      text-decoration: none;
+      color:black;
+   }
+header .primary a:hover {
+      color: #a51c30;
+   }
+
+header .getinfo a:link,
+header .getinfo a:visited,
+header .getinfo a:active {
+      text-decoration: none;
+      color:white;
+   }
+header .getinfo a:hover {
+      color: black;
+   }
+
+
+.getinfo {
+color: white;
+margin-left: .5em;
+padding-top: .7em;
+padding-bottom: .7em;
+padding-right: 1.2em;
+padding-left: 1em;}
+/* -----------------------------
+   Styles for header primary nav
+   ----------------------------- */
+   header nav.primary ul li::before { 
+      content: " | ";
+      padding-left: .5em;
+     
+      padding-right: .5em;
+      margin-left: 0em;
+      
+   }
+   header nav.primary ul li:first-child::before {
+      content: "";
+      padding-left: 1em;
+      padding-right:1em;
+     
+     
+   }
+   header nav.primary ul li:last-child::before {
+      content: "";
+      padding-left: 0;  
+   }
+   
+   header nav.primary ul li:last-child {
+   background-color: #a51c30;}
+/* -----------------------------
+   Styles for header secondary nav
+   ----------------------------- */
+
+/* ----------------------------- */
+
+header .login a:link,
+header .login a:visited,
+header .login a:active {
+      text-decoration: none;
+      color: #3E79BB;
+      
+   }
+header .login a:hover {
+      color:  #a51c30;
+   }
+
+header .secondary a:link,
+header .secondary a:visited,
+header .secondary a:active {
+      text-decoration: none;
+      color: #3E79BB;
+      
+     
+   }
+header .secondary a:hover {
+      color:  #a51c30;
+   }
+
+.login {
+   margin-left: .5em;
+   padding-top: .3em;
+   padding-bottom: .3em;
+   padding-right: 1.1em;
+   }
+    /* -----------------------------
+      Styles for header secondary nav
+      ----------------------------- */
+   
+   /* ----------------------------- */
+   header nav.secondary ul li::before { 
+      content: "";
+      padding-left: .7em;
+      padding-right: .2em;
+      
+   }
+   header nav.secondary ul li:first-child::before {
+      content: "";
+      padding-right: 0;
+      
+   }
+
+   header nav.secondary ul li:last-child {
+      border: 4px solid #4d84c4;
+   }
+
+
+
+/* -----------------------------
+   Styles for "Explore"
+   ----------------------------- */
+
+div.explore {
+   background-image: url(..//images/campus_bridge_river.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: -2.5em;
+   padding-bottom: 2em;
+   padding-left: 1em;
+   padding-right: 1em;
+  
+}
+div.explore h1 {
+   color: #ffffff;
+   text-align: center;
+   font-size: 3em;
+   padding-top: 1em;
+   filter: drop-shadow(1px 2px 2px black );
+   font-family: 'Roboto Condensed', Arial, sans-serif;
+   
+}
+div.sections {
+   display: flex;
+   flex-wrap: wrap;
+}
+div.sections section { 
+   flex: 21.5%;
+   background-color: #ebebeb ;
+   margin: 1.5em;
+   border-top: 5px solid #a51c30;
+}
+div.sections section h2 {
+   text-transform: uppercase;
+   padding: .5em;
+   background-color: #ffffff;
+   margin: 0;
+   font-weight: bold;
+   font-family: "Roboto Condensed", Arial, sans-serif;
+}
+div.sections section a {
+   color: #a51c30;
+   background-image: url(..//images/arrow-right.svg);
+   background-repeat: no-repeat;
+   background-position: right center;
+   padding-right: 1.5em;
+   font-weight: bold;
+   font-family: "Roboto Condensed", Arial, sans-serif;
+   
+}
+div.explore section ul {
+   list-style: none;
+   padding: 0;
+   margin:0;
+   padding: 1.2em;
+}
+div.explore section ul li {
+   padding-bottom: .5em;
+}
+
+
+section ul li a:link,
+section ul li a:visited,
+section ul li a:active {
+      text-decoration: none;
+      color: #a51c30;
+      
+     
+   }
+section ul li a:hover {
+color: blue; 
+   }
+
+
+
+
+/* -----------------------------
+   Styles for "Student Success"
+   ----------------------------- */
+
+div.studentsuccess {
+   background-color: #ebebeb;
+   margin-top: -1.6em;
+}
+div.studentsuccess h2 {
+   text-align: center;
+   padding-top: 1em;
+   font-weight: bold;
+   font-family: 'Roboto Condensed', Arial, sans-serif;
+   font-size: 2em;
+   
+}
+
+div.studentsuccess p {
+   width: 50%;
+   margin: auto;
+}
+div.studentsuccess div.articles {
+   display: flex;
+   
+}
+div.studentsuccess div.articles article {
+   flex-basis: 33%;
+   margin: 1em;
+   padding: 1em;
+   background-color: #ffffff;
+   padding-bottom: 6em;
+   
+}
+div.studentsuccess div.articles article p {
+   width: 100%;
+   margin: auto;
+   font-family: 'Roboto', Arial, sans-serif;
+   
+}
+div.studentsuccess div.articles article ul li.program {
+   list-style-image: url(..//images/mortar-board.svg);
+}
+div.studentsuccess div.articles article ul li.hometown {
+   list-style-image: url(..//images/map-marker.svg);
+}
+div.studentsuccess div.articles article ul li {
+   padding-bottom: 1em;}
+
+
+h3 {
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+div.articles article img {
+   object-fit: contain;
+   max-width: 100%;
+}
