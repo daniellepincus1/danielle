@@ -1,0 +1,679 @@
+
+
+body {
+    font-family: 'fantasy', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+/* -----------------------------
+   Styles for footer
+   ----------------------------- */
+   footer {
+      background-color: black;
+      color: white;
+      padding: 5px;
+     
+   }
+   footer ul {
+      list-style: none;
+      display: flex;
+      padding-left: 0;
+   }
+   footer ul a { 
+      
+      text-decoration: none;
+      margin-left: 1em;
+      color:white;
+   }
+   footer a:link,
+   footer a:visited,
+   footer a:active {
+      color:white;
+   }
+   footer a:hover {
+      color: orange;
+   }
+   footer nav.contactplus a { 
+      font-weight: bold;
+      
+   }
+   footer nav.contactplus ul li { 
+      margin-right: 1.5em;
+     
+      padding-bottom: .5em;
+   }
+  
+   
+   footer p { margin-left: 1em;}
+
+
+
+/* -----------------------------
+   Styles for header
+   ----------------------------- */
+   
+header {
+   display: grid;
+   background-color: rgb(42, 51, 47);
+   margin-top: -1.75em;
+   filter: drop-shadow(5px 5px 5px black );
+   
+
+   
+   
+   grid-template-areas: 
+   "dce    dce  dce  dce"
+   "shield nav2 nav2 nav2"
+   "shield nav1 nav1 nav1" 
+
+  
+}
+
+
+header h2 {
+   grid-area: dce;
+   background-color:black;
+   color: white;
+   font-family: 'fantasy', 'sans-serif';
+   font-weight: bold;
+   font-size: 2em;
+   padding-bottom: .5em;
+   padding-top: 1em;
+   text-align: center;
+   filter: drop-shadow(.5px .5px 15px grey);
+}
+
+header h2.wordmark {
+   grid-area: shield;
+   background-color: transparent;
+   margin-top: .25em;
+
+   filter: drop-shadow(4px 4px 10px black );
+  
+
+}
+
+
+header nav.secondary {
+   grid-area: nav2;
+   text-align: right;
+   padding-right: 2em;
+ 
+  
+}
+
+header nav.primary {
+   grid-area: nav1;
+   text-align: right;
+   padding-right: 2em; 
+  
+}
+
+header nav ul {
+   list-style-type: none;
+   font-size: larger;
+   font-family: 'fantasy','sans-serif';
+   font-weight: bolder;
+   
+}
+header nav ul li {
+   display: inline;
+   
+   
+   
+}
+
+header img {
+   margin-top: -1em;
+   margin-left: .5em;
+}
+header nav.primary a {
+   color: white;
+   
+} 
+
+
+/* -----------------------------
+   Styles for header primary nav
+   ----------------------------- */
+header .primary a:link,
+header .primary a:visited {
+      text-decoration: none;
+      color:white;
+     
+   }
+header .primary a:active {
+  text-decoration: none;
+
+}
+header .primary a:hover {
+      color: orange;
+   }
+
+
+
+/* -----------------------------
+   Styles for header primary nav
+   ----------------------------- */
+   header nav.primary ul li::before { 
+      content: " | ";
+      padding-left: 1em;
+      color: white;
+      padding-right: 1em;
+      margin-left: 0em;
+      
+   }
+   header nav.primary ul li:first-child::before {
+      content: " ";
+     
+     
+     
+   }
+   header nav.primary ul li:last-child::before {
+      content: " | ";
+      padding-left: 1em;  
+   }
+   
+ 
+/* -----------------------------
+   Styles for header secondary nav
+   ----------------------------- */
+
+/* ----------------------------- */
+
+
+
+header .secondary a:link,
+header .secondary a:visited,
+header .secondary a:active {
+      text-decoration: none;
+      color: white;
+      
+     
+   }
+header .secondary a:hover {
+      color:  orange;
+   }
+
+
+
+    /* -----------------------------
+      Styles for header secondary nav
+      ----------------------------- */
+   
+   /* ----------------------------- */
+
+   header nav.secondary ul li::before { 
+      content: " | ";
+      padding-left: 1em;
+      color: white;
+     
+      padding-right: 1em;
+      margin-left: 0em;
+      
+   }
+   header nav.secondary ul li:first-child::before {
+      content: " ";
+     
+     
+     
+   }
+   header nav.secondary ul li:last-child::before {
+      content: " | ";
+      padding-left: 1em;  
+   }
+
+
+
+
+/* -----------------------------
+   Styles for "Explore Medieval Page1"
+   ----------------------------- */
+
+div.explore {
+   background-image: url(..//images/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y: -8.25em;
+   margin-top: -2.5em;
+   padding-bottom: 2em;
+   padding-left: 1em;
+   padding-right: 1em; 
+}
+
+div.explore p {
+   background-color:  rgb(42, 51, 47);
+   color: white;
+   text-align: center;
+   padding-top: 1em;
+   padding: 2em;;
+   font-weight: bold;
+   font-family: 'Roboto Condensed', Arial, sans-serif;
+   font-size: 1em;
+   width: 55%;
+   filter: drop-shadow(4px 4px 4px black );
+   margin: auto;
+   margin-top: 5em;
+   margin-bottom: 5em;
+   
+
+   
+}
+
+div.explore h1 {
+   color: #ffffff;
+   text-align: center;
+   font-size: 3em;
+   padding-top: 1em;
+   filter: drop-shadow(1px 2px 2px black );
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+div.explore h2 {
+   color: #ffffff;
+   text-align: center;
+   font-size: 1em;
+   padding-top: 1em;
+   filter: drop-shadow(1px 2px 2px black );
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+div.Secondhead {
+   font-size: 2em;
+   background-color:  rgb(42, 51, 47); ;
+   width: fit-content;
+   margin-left: 40%;
+   padding-left: .5em;
+   padding-right: .5em;
+   padding-bottom: .25em;
+   border-radius: 20%;
+   text-align: center;
+   filter: drop-shadow(3px 3px 3px black );
+
+}
+div.sections {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 2em;
+}
+
+div.sections section { 
+   flex: 22%;
+   background-color: #ebebeb ;
+   padding-bottom: 1.5em;
+   margin: 2.5em;
+   border-top: 5px solid black;
+   box-shadow: 7px 7px 10px;
+}
+div.sections section h2 {
+   text-transform: uppercase;
+   padding: 1em;
+   padding-bottom: .5em;
+   background-color: rgb(42, 51, 47);
+   margin: 0;
+   font-weight: bold;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+  
+
+div.sections section img {
+      height: 240px;
+      width: 240px;
+     margin-left: 2.75em;
+     margin-top: 2em;
+     border-radius: 20px;
+     filter: drop-shadow(2px 2px 4px black);
+     
+}
+
+
+
+/* -----------------------------
+   Styles for "Page2"
+   ----------------------------- */
+
+
+
+
+
+
+   div.Medivalstyle {
+      background-color: #ebebeb;
+      margin-top: -1.6em;
+   }
+   div.Medivalstyle h1{
+      font-size: 2em;
+      padding-top: 1em;
+      text-align: center;
+   }
+   div.Medivalstyle h2 {
+      text-align: center;
+      padding-top: 1em;
+      font-weight: bolder;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: larger;
+      
+   }
+   
+   div.Medivalstyle p {
+      width: 50%;
+      margin: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      padding-bottom: 2em;
+      
+   }
+   div.Medivalstyle div.articles {
+      display: flex;
+      
+   }
+   div.Medivalstyle div.articles article {
+      flex-basis: 33%;
+      margin: .5em;
+    border: solid 2px;
+      text-align: center;
+      background-color: #ffffff;
+      padding-bottom: 1em;
+      
+   }
+   div.Medivalstyle div.articles article p {
+      width: auto;
+     font-size: medium;
+      text-align: left;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+   }
+
+   
+   
+ 
+   div.articles article img {
+      object-fit: contain;
+      max-width: 100%;
+   }
+
+
+
+
+
+
+
+/* -----------------------------
+   Styles for "Page 3"
+   ----------------------------- */
+
+
+div.page3  { 
+   background-color: transparent ;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style:italic;
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 250%;
+   font-style: normal;
+}
+div p {
+   font-size: 60%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   max-width: 80%;
+   margin: auto;
+   padding-top: 1em;
+}
+div h1 {
+   font-size: 150%;
+}
+div h2 {
+   font-size: 100%;
+}
+div.text p {
+   font-size: .5em;
+   padding-bottom: 1.5em;
+   
+}
+div.cite {
+background-color:  rgb(42, 51, 47);;
+color: white;
+
+max-width: fit-content;
+margin-left: 1.5em;
+margin-bottom: .5em;
+padding-top: 1em;
+padding-bottom: 1em;
+}
+div.cite p {
+   font-size: .75em;
+}
+
+div.cite p a:link,
+div.cite p a:visited,
+div.cite p a:active {
+      text-decoration: underline;
+      color: white;
+      
+     
+   }
+div.cite p a:hover {
+      color:  orange;
+   }
+
+
+
+
+/* -----------------------------
+  Lightbox css Page3
+   ----------------------------- */
+
+
+   body.lb-disable-scrolling {
+      overflow: hidden;
+    }
+    
+    .lightboxOverlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      background-color: black;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+      opacity: 0.8;
+      display: none;
+    }
+    
+    .lightbox {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      z-index: 10000;
+      text-align: center;
+      line-height: 0;
+      font-weight: normal;
+      outline: none;
+    }
+    
+    .lightbox .lb-image {
+      display: block;
+      height: auto;
+      max-width: inherit;
+      max-height: none;
+      border-radius: 3px;
+    
+      /* Image border */
+      border: 6px solid white;
+    }
+    
+    .lightbox a img {
+      border: none;
+    }
+    
+    .lb-outerContainer {
+      position: relative;
+      *zoom: 1;
+      width: 250px;
+      height: 250px;
+      margin: 0 auto;
+      border-radius: 4px;
+    
+      /* Background color behind image.
+         This is visible during transitions. */
+      background-color: white;
+    }
+    
+    .lb-outerContainer:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .lb-loader {
+      position: absolute;
+      top: 43%;
+      left: 0;
+      height: 25%;
+      width: 100%;
+      text-align: center;
+      line-height: 0;
+    }
+    
+    .lb-cancel {
+      display: block;
+      width: 32px;
+      height: 32px;
+      margin: 0 auto;
+      background: url(../images/loading.gif) no-repeat;
+    }
+    
+    .lb-nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 10;
+    }
+    
+    .lb-container > .nav {
+      left: 0;
+    }
+    
+    .lb-nav a {
+      outline: none;
+      background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+    }
+    
+    .lb-prev, .lb-next {
+      height: 100%;
+      cursor: pointer;
+      display: block;
+    }
+    
+    .lb-nav a.lb-prev {
+      width: 34%;
+      left: 0;
+      float: left;
+      background: url(../images/prev.png) left 48% no-repeat;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      -webkit-transition: opacity 0.6s;
+      -moz-transition: opacity 0.6s;
+      -o-transition: opacity 0.6s;
+      transition: opacity 0.6s;
+    }
+    
+    .lb-nav a.lb-prev:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+    }
+    
+    .lb-nav a.lb-next {
+      width: 64%;
+      right: 0;
+      float: right;
+      background: url(../images/next.png) right 48% no-repeat;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      -webkit-transition: opacity 0.6s;
+      -moz-transition: opacity 0.6s;
+      -o-transition: opacity 0.6s;
+      transition: opacity 0.6s;
+    }
+    
+    .lb-nav a.lb-next:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+    }
+    
+    .lb-dataContainer {
+      margin: 0 auto;
+      padding-top: 5px;
+      *zoom: 1;
+      width: 100%;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+    
+    .lb-dataContainer:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .lb-data {
+      padding: 0 4px;
+      color: #ccc;
+    }
+    
+    .lb-data .lb-details {
+      width: 85%;
+      float: left;
+      text-align: left;
+      line-height: 1.1em;
+    }
+    
+    .lb-data .lb-caption {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 1em;
+    }
+    
+    .lb-data .lb-caption a {
+      color: #4ae;
+    }
+    
+    .lb-data .lb-number {
+      display: block;
+      clear: left;
+      padding-bottom: 1em;
+      font-size: 12px;
+      color: #999999;
+    }
+    
+    .lb-data .lb-close {
+      display: block;
+      float: right;
+      width: 30px;
+      height: 30px;
+      background: url(../images/close.png) top right no-repeat;
+      text-align: right;
+      outline: none;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+      opacity: 0.7;
+      -webkit-transition: opacity 0.2s;
+      -moz-transition: opacity 0.2s;
+      -o-transition: opacity 0.2s;
+      transition: opacity 0.2s;
+    }
+    
+    .lb-data .lb-close:hover {
+      cursor: pointer;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+    }
+    
+   
+      
+     
